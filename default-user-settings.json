@@ -1,0 +1,12 @@
+{
+    "DefaultUserSettings": {
+      "KernelGatewayAppSettings": {
+        "CustomImages": [
+            {
+                     "ImageName": "tf2kernel",
+                     "AppImageConfigName": "custom-tf2"
+                  }
+              ]
+          }
+      }
+  }
