@@ -22,4 +22,8 @@ aws --region ${REGION} sagemaker create-app-image-config --cli-input-json file:/
 aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-input-json file://default-user-settings.json
 
 
-aws --region ${REGION} sagemaker create-app --domain-id ${DOMAINID} --cli-input-json file://create-app.json
+## Create App
+aws --region ${REGION} sagemaker create-app --domain-id ${DOMAINID} --user-profile default-1632899709838 --cli-input-json file://create-app-input.json
+
+## Update user prfile
+aws --region ${REGION} sagemaker update-user-profile --domain-id ${DOMAINID} --user-profile default-1632899709838 --cli-input-json file://default-user-settings.json
