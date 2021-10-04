@@ -1,4 +1,5 @@
-"AppImageConfigName": "custom-tf2",
+{
+    "AppImageConfigName": "custom-tf2",
     "KernelGatewayImageConfig": {
         "KernelSpecs": [
             {
