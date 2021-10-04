@@ -20,3 +20,6 @@ aws --region ${REGION} sagemaker create-app-image-config --cli-input-json file:/
 
 ## Update the Domain, providing the Image and AppImageConfig
 aws --region ${REGION} sagemaker update-domain --domain-id ${DOMAINID} --cli-input-json file://default-user-settings.json
+
+
+aws --region ${REGION} sagemaker create-app --domain-id ${DOMAINID} --cli-input-json file://create-app.json
