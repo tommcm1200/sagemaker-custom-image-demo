@@ -1,5 +1,9 @@
 {
-    "SageMakerImageArn": "arn:aws:sagemaker:ap-southeast-2:237352924068:image/tf2kernel",
-    "SageMakerImageVersionArn": "arn:aws:sagemaker:ap-southeast-2:237352924068:image-version/tf2kernel/1",
-    "InstanceType": "ml.t3.micro"
-  }
+   "AppType": "KernelGateway",
+    "AppName": "CustomAppTest",
+    "ResourceSpec": {
+        "SageMakerImageArn": "arn:aws:sagemaker:ap-southeast-2:237352924068:image/tf2kernel",
+        "SageMakerImageVersionArn": "arn:aws:sagemaker:ap-southeast-2:237352924068:image-version/tf2kernel/1",    
+        "InstanceType": "ml.r5.large"
+    }
+}
